@@ -1,0 +1,99 @@
+
+
+.cabecalho{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    background-color:rgb(178, 184, 190);
+    color: black;
+}
+
+.menu{
+    position: relative;
+    float: right;
+    top: 30px;
+    right: 0;
+    font-size: 20px;
+}
+
+.menu li{
+    text-transform: uppercase;
+    display: inline-flex;
+    margin: 0 0 0 15px;
+    font-weight: bold;
+    color: pink;
+    text-decoration: none;
+}
+
+body{
+    background-color: pink;
+}
+
+main{
+    margin: 0 auto;
+}
+.professorAluno{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.professorAluno h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.professorAluno:hover h2{
+    color: blueviolet;
+    font-size: 21px;
+}
+
+.professorAluno li{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    padding: 90px 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: double;
+    border-radius: 30px;
+}
+
+.professorAluno p{
+    padding: 5px 0;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.fabio{
+    width: 450px;
+}
+
+.pedro{
+    width: 300px;
+    height: 300px;
+}
+
+.kaua{
+    width: 300px;
+    height: 300px;
+}
+
+.rodape{
+    position: fixed;
+    background-color:rgb(178, 184, 190);
+    color: black;
+    font-size: 20px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 0; 
+}
+

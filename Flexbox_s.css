@@ -1,0 +1,103 @@
+@media only screen and (max-device-width: 768px){
+    
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 50px;
+        height: 140px;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 30px;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        padding-bottom: 40px;
+    }
+
+    .fabio{
+        width: 650px;
+    }
+
+    .pedro{
+        width: 600px;
+        height: 600px;
+    }
+
+    .kaua{
+        width: 600px;
+        height: 600px;
+    }
+
+    .professorAluno p{
+        padding: 5px 5px;
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    .professorAluno h2{
+        font-size: 35px;
+        font-weight: bold;
+        padding: 5px 0;
+    }
+}
+
+@media only screen and (max-device-width: 500px){
+    
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 50px;
+        height: 140px;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 30px;
+    }
+    
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .fabio{
+        width: 850px;
+    }
+
+    .pedro{
+        width: 800px;
+        height: 800px;
+    }
+
+    .kaua{
+        width: 800px;
+        height: 800px;
+    }
+
+    .professorAluno p{
+        padding: 5px 5px;
+        font-size: 35px;
+        text-align: justify;
+    }
+
+    .professorAluno h2{
+        font-size: 40px;
+        font-weight: bold;
+        padding: 5px 0;
+    }
+}
